@@ -6,3 +6,10 @@ addons:
   postgresql: '9.3'
 before_script:
 - bundle exec rake db:create
+deploy:
+  provider: heroku
+  app:
+    master: irb-sample-app
+  on:
+    repo: Capncavedan/irb-sample-app
+  run: rake db:migrate
