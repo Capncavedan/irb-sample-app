@@ -13,3 +13,5 @@ deploy:
   on:
     repo: Capncavedan/irb-sample-app
   run: rake db:migrate
+  api_key:
+    secure: S2pDtWN5knP2+7Tp29gEQ/xNd8SdiKHG9qhrXNtKQJRvzhSw82CQFqm44Ub9RWvm7qOxgYqFVKZZ4qX+X+nZDvMvH0qSedSonQIwa/BvQdX5s5Gti54x6cK1acoaTnBCZo7fypVFNAMnxohx95JZjjInyoIBct5iww1daLwZymo=
